@@ -23,6 +23,7 @@ List the key features of your phishing detection system. Highlight any unique or
 
 Provide instructions on how to install and set up your project. Include any dependencies that need to be installed and any configuration steps that need to be followed.
 ```pip install -r requirements.txt```
+The csv file of phishing mails is from kaggle ```kaggle.com```
 
 ## Usage
 
