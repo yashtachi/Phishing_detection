@@ -1,6 +1,6 @@
 # Phishing Detection Project
 
-This project aims to develop a phishing detection system using [insert technology/framework here].
+This project aims to develop a phishing detection system using [Machine learning].
 
 ## Table of Contents
 
@@ -8,31 +8,24 @@ This project aims to develop a phishing detection system using [insert technolog
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction
-
-In this section, provide a brief overview of the project and its goals. Explain why phishing detection is important and how your project addresses this issue.
-
+This project will provide the identification of phishing and non-phishing websites .Just you have to enter the website link in the text book of the app interface , then you will get the info of the website i.e phishing or not 
 ## Features
 
-List the key features of your phishing detection system. Highlight any unique or innovative aspects of your project.
+For the identification of the phishing websites I used ```csv``` file of phishing and non-phishing websites and trained a model based on it using python libraries like scikitlearn and sub modules in it and we used matplotlib and seaborn for visualisation of data at each phase of project
 
 ## Installation
 
-Provide instructions on how to install and set up your project. Include any dependencies that need to be installed and any configuration steps that need to be followed.
+First install necessary libraries of python . The necesssary libraries are mentioned in our ```requirements.txt``` You just download it and run the below command in your command pannel 
 ```pip install -r requirements.txt```
 The csv file of phishing mails is from kaggle ```kaggle.com```
 
 ## Usage
+The primary use of this project is to protect users from falling victim to phishing attacks. By integrating this project into web browsers or cybersecurity systems, it can provide real-time warnings to users when they attempt to visit a potentially harmful website.
 
-Explain how to use your phishing detection system. Provide examples and code snippets if necessary. Include any command-line options or configuration settings that can be customized.
-
-## Contributing
-
-If you would like to contribute to this project, please follow the guidelines outlined in [CONTRIBUTING.md](./CONTRIBUTING.md). We welcome contributions from the community!
-
+we are  further developing this to make in as a plugin and extension that prevents victims to visit those phishing sites 
 ## License
 
 This project is licensed under the [MIT License](./LICENSE). Please see the [LICENSE](./LICENSE) file for more details.
